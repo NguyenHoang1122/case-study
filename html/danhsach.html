@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quản lý danh sách đồ CS2</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="content">
+  <div class = "container">
+    <form action="">
+      <fieldset>
+        <legend><h3>Thêm mới Skins</h3></legend>
+        <table>
+          <tr>
+            <th class="bordernone">Mã Skins</th>
+            <td class="bordernone"><input type="text" id="maSkin"></td>
+          </tr>
+          <tr>
+            <th class="bordernone">Tên Skins</th>
+            <td class="bordernone"><input type="text" id="tenSkin"></td>
+          </tr>
+          <tr>
+            <th class="bordernone">Hình ảnh(200x106)</th>
+            <td class="bordernone"><input type="file" id="fileInput" accept="image/*"></td>
+          </tr>
+          <tr>
+            <th class="bordernone">Số lượng</th>
+            <td class="bordernone"><input type="text" id="soLuong"></td>
+          </tr>
+          <tr>
+            <th class="bordernone"></th>
+            <th class="bordernone"><button id = "addButton" type="button" onclick="addSkins(event)">Thêm mới Skin</button></th>
+          </tr>
+
+        </table>
+      </fieldset>
+    </form>
+  </div>
+  <table class="table">
+    <thead>
+    <tr>
+      <th class="bordernone" colspan = "5">
+        <h2>Danh sách kho đồ CS2</h2>
+      </th>
+    </tr>
+    <tr>
+      <th>Mã Skins</th>
+      <th>Tên Skins</th>
+      <th>Hình ảnh(200x106)</th>
+      <th>Số lượng</th>
+      <th>Thao tác</th>
+    </tr>
+    </thead>
+    <tbody id = "container-product">
+    </tbody>
+  </table>
+</div>
+<script src="../js/listiteam.js"></script>
+</body>
+</html>

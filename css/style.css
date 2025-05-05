@@ -1,0 +1,85 @@
+body{
+    background-image: url("../anh/anhnends.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h2, h3{
+    color: #e64b1b;
+}
+hr{
+    border: 1px solid rgba(4, 68, 188, 0.94);
+}
+th{
+    color: rgba(246, 249, 250, 0.97);
+}
+.content{
+    width: 100%;
+    height: auto;
+}
+.table{
+    border-collapse: collapse;
+    width: 50%;
+}
+th,td{
+    background-color: rgba(20, 65, 232, 0.69);
+    border: 2px solid rgb(1, 8, 34);
+}
+.bordernone{
+    border:none;
+    background-color:unset;
+    text-align: left;
+}
+.container{
+    width: 27%;
+    margin-bottom: 20px;
+}
+form{
+    width: 100%;
+    height: auto;
+}
+tbody{
+    width: 100%;
+}
+.maSkin{
+    width: 10%;
+}
+.hinhAnh{
+    width: 200px;
+    height: 106px;
+}
+.soLuong{
+    width: 10%;
+    text-align: center;
+}
+.thaoTac{
+    width: 10%;
+    text-align: center;
+}
+button{
+    width: 70px;
+    background-color: rgb(223, 234, 55, 0.45);
+    border-radius: 3px;
+    border: 2px solid rgba(1, 34, 165, 0.97);
+    margin: 5px;
+    margin-left: 0px;
+    color: rgba(239, 49, 5, 0.97);
+}
+#addButton{
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgba(5, 26, 115, 0.7);
+}
+button:hover{
+    border: 1px solid rgba(179, 52, 30, 0.97);
+    background-color: rgba(239, 139, 18, 0.97);
+    font-weight: bold;
+    color: red;
+}
+fieldset{
+    background-color: rgba(20, 65, 232, 0.69);
+    border: 2px solid rgb(1, 8, 34);
+    border-radius: 10px;
+}

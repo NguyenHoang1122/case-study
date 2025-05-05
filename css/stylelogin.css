@@ -1,0 +1,41 @@
+.container{
+    width: 400px;
+    height: 300px;
+    background: rgba(209, 125, 21, 0.5);
+    margin: auto;
+    margin-top: 15%;
+    border: 1px solid rgba(248, 61, 38, 0.5);
+    border-radius: 5px;
+}
+h2{
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+th{
+    text-align: right;
+    color: white;
+}
+#button-center{
+    text-align: center;
+}
+input, button{
+    border-radius: 5px;
+}
+button{
+    margin-top: 30px;
+    width: 100px;
+    height: 40px;
+}
+input{
+    margin:5px;
+}
+body{
+    background-image: url("../anh/nenlogin.jpg");
+    background-size: cover;
+    background-position: center;
+}
